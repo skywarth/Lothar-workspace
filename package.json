@@ -1,13 +1,14 @@
 {
     "scripts": {
         "dev": "webpack --mode development"
-        
     },
     "devDependencies": {
+        "style-loader": "^1.0.0",
         "webpack": "^4.40.2",
         "webpack-cli": "^3.3.9"
     },
     "dependencies": {
-        "jquery": "3.4.1"
+        "jquery": "3.4.1",
+        "css-loader": "3.2.0"
     }
 }

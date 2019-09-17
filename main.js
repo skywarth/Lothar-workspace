@@ -1,2 +1,6 @@
+var $ = require('jquery');
 
-document.write('<h1>za</h1>');
+$(function() {
+    $("#qwe").text('zxc');
+    $("#qwe").addClass("testClass");
+});
